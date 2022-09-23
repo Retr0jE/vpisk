@@ -3,14 +3,14 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class Maket1 extends StatefulWidget {
-  const Maket1({Key? key}) : super(key: key);
+class medinow extends StatefulWidget {
+  const medinow({Key? key}) : super(key: key);
 
   @override
-  State<Maket1> createState() => _Maket1State();
+  State<medinow> createState() => _medinowState();
 }
 
-class _Maket1State extends State<Maket1> { @override
+class _medinowState extends State<medinow> { @override
   Widget build(BuildContext context) {
          return Scaffold(
           backgroundColor: Color.fromRGBO(3, 158, 162, 1),

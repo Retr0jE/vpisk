@@ -1,15 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Maket2 extends StatefulWidget {
-  const Maket2({Key? key}) : super(key: key);
+class MindDeepRelax extends StatefulWidget {
+  const MindDeepRelax({Key? key}) : super(key: key);
 
   @override
-  State<Maket2> createState() => _Maket2State();
+  State<MindDeepRelax> createState() => _MindDeepRelaxState();
 }
 
 
-class _Maket2State extends State<Maket2> { @override
+class _MindDeepRelaxState extends State<MindDeepRelax> { @override
   Widget build(BuildContext context) {
          return Scaffold(
              body: SafeArea(

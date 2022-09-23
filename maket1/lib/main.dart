@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:maket1/maket1.dart';
-import 'package:maket1/maket2.dart';
+import 'package:maket1/medinow.dart';
+import 'package:maket1/MindDeepRelax.dart';
 
-import 'maket3.dart';
+import 'bible.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       
-     //home: Maket1()
+     //home: Bible()
       
-      home: Maket2()
-      //home: Maket3()
+      //home: MindDeepRelax()
+      home: medinow()
     );
   }
 }
