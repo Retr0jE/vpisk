@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 
-class MaketThree extends StatefulWidget {
-  const MaketThree({Key? key}) : super(key: key);
+class Maket3 extends StatefulWidget {
+  const Maket3({Key? key}) : super(key: key);
 
   @override
-  State<MaketThree> createState() => _MaketThreeState();
+  State<Maket3> createState() => _Maket3State();
 }
 
 
-class _MaketThreeState extends State<MaketThree> {
+class _Maket3State extends State<Maket3> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(

@@ -1,15 +1,15 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class MaketTwo extends StatefulWidget {
-  const MaketTwo({Key? key}) : super(key: key);
+class Maket2 extends StatefulWidget {
+  const Maket2({Key? key}) : super(key: key);
 
   @override
-  State<MaketTwo> createState() => _MaketTwoState();
+  State<Maket2> createState() => _Maket2State();
 }
 
 
-class _MaketTwoState extends State<MaketTwo> { @override
+class _Maket2State extends State<Maket2> { @override
   Widget build(BuildContext context) {
          return Scaffold(
              body: SafeArea(
@@ -19,7 +19,7 @@ class _MaketTwoState extends State<MaketTwo> { @override
                 Container(
                    
                   alignment: Alignment.centerLeft,
-                  margin: EdgeInsets.only(left: 10),
+                  margin: EdgeInsets.only(left: 10, top: 5),
                      child: Text('Sire Denatrius', style: TextStyle(), textAlign: TextAlign.left,)
                 ),
                 Container(
@@ -66,16 +66,22 @@ class _MaketTwoState extends State<MaketTwo> { @override
                   child:
                    Container(
                     
-                    margin: EdgeInsets.only(left: 30, top: 10),
+                    margin: EdgeInsets.only(left: 20, top: 10),
                     width: 60,
                     height: 60,
+                    
                     decoration: BoxDecoration(image: DecorationImage(image: AssetImage("images/play.png"), fit: BoxFit.cover,) ,borderRadius: BorderRadius.circular(20), color: Colors.blueAccent),
                                         
                   ),
 
                  ),
                 Padding(padding: EdgeInsets.only(left: 10, top: 60)),
-                const Text('Sweet Cocks', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),)
+                const Text('Sweet Cocks', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20), softWrap: true,),
+                
+                 Padding(padding: EdgeInsets.only(left: 145)),
+                 const Text('···', style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold, color: Colors.grey),),
+                
+                
               ],),
                Row(children: [
                  InkWell(
@@ -85,7 +91,7 @@ class _MaketTwoState extends State<MaketTwo> { @override
                   child:
                    Container(
                     
-                    margin: EdgeInsets.only(left: 30, top: 10),
+                    margin: EdgeInsets.only(left: 20, top: 10),
                     width: 60,
                     height: 60,
                     decoration: BoxDecoration(image: DecorationImage(image: AssetImage("images/play.png"), fit: BoxFit.cover,) ,borderRadius: BorderRadius.circular(20), color: Colors.greenAccent),
@@ -94,7 +100,9 @@ class _MaketTwoState extends State<MaketTwo> { @override
 
                  ),
                 Padding(padding: EdgeInsets.only(left: 10, top: 60)),
-                const Text('A Cum Dream', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),)
+                const Text('A Cum Dream', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                Padding(padding: EdgeInsets.only(left: 138)),
+                const Text('···', style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold, color: Colors.grey),)
               ],),
                Row(children: [
                  InkWell(
@@ -104,7 +112,7 @@ class _MaketTwoState extends State<MaketTwo> { @override
                   child:
                    Container(
                     
-                    margin: EdgeInsets.only(left: 30, top: 10),
+                    margin: EdgeInsets.only(left: 20, top: 10),
                     width: 60,
                     height: 60,
                     decoration: BoxDecoration(image: DecorationImage(image: AssetImage("images/play.png"), fit: BoxFit.cover,) ,borderRadius: BorderRadius.circular(20), color: Colors.orangeAccent),
@@ -113,7 +121,9 @@ class _MaketTwoState extends State<MaketTwo> { @override
 
                  ),
                 Padding(padding: EdgeInsets.only(left: 10, top: 60)),
-                const Text('Dungeon Explore', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),)
+                const Text('Dungeon Explore', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),),
+                Padding(padding: EdgeInsets.only(left: 110)),
+                const Text('···', style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold, color: Colors.grey),)
               ],),
             ],
 
