@@ -1,8 +1,16 @@
-# Практическая работа №1
-## Тема: Работа с основными виджетами
-### Цель работы: Изучить и поработать с основными виджетами flutter. Реализовать макеты из предоставленных примеров.
-### Ход работы: В первом макете использовался виджет Scaffold, в котором были созданы контейнеры для текста и были применены различные стили для текста (вес, размер). Были применены выравнивания для контейнеров alignment и отступы margin. Также для двух контейнеров применялся BoxDecoration для получения закруглённых границ. Во втором макете использовался виджет Column, чтобы элементы располагались вертикально, в виде столбика. Затем было добавлено изображение с помощью виджета Image. Для текста использовался виджет Container. Для обработки нажатия был использован виджет InkWell и для помещения изображений в кнопки были использованы контейнеры. Также для горизонтального расположения кнопок и надписей, был использован виджет Row. В третьем макете использовался виджет SingleChildScrollView для того, чтобы можно было скроллить страницу, дабы хватало места. Для обработки нажатия использовался виджет InkWell. Использовались виджеты Container, BoxDecoration, Image. Для их расположения использовались padding, margin. Также были использованы иконки по умолчанию Icons.
-![image](https://user-images.githubusercontent.com/92712732/191920159-498bb1f1-9f91-41f6-b4fc-1c22a24430c7.png)
-![image](https://user-images.githubusercontent.com/92712732/191925339-aa2632fe-d2a7-4262-822a-f09da3baa313.png)
-![image](https://user-images.githubusercontent.com/92712732/191908499-0f40d489-90b1-47cb-bff2-4a955834abc0.png)
-### Вывод: Изучил и поработал с основными виджетами flutter. Реализовал макеты из предоставленных примеров.
+# pr2
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
