@@ -4,7 +4,8 @@
 ### Ход работы: 
 Модель темы
 
-![image](https://user-images.githubusercontent.com/92712732/215783162-18066da1-ce41-4649-845a-e7419fbbdeb7.png)
+![image](https://user-images.githubusercontent.com/92712732/228139521-a3d5fee8-ec01-4247-9718-a3dc57f1b373.png)
+
 
 Регистрация:
 
