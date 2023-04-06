@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "968195919637",
+    "project_id": "fuckpaha",
+    "storage_bucket": "fuckpaha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968195919637:android:154ab7ff2c052dba91631c",
+        "android_client_info": {
+          "package_name": "com.example.firebaseflutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968195919637-br5vltnmuqckgsd4fmlo78od0ejq6vqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtUOEqJyIcaXFyP_Wk2bRXBC25O5K9EXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968195919637-br5vltnmuqckgsd4fmlo78od0ejq6vqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
